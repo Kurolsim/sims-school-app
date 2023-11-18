@@ -1,4 +1,4 @@
-import 'package:brain_school/constants.dart';
+import 'package:sims_school/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -33,7 +33,7 @@ class StudentYear extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 30.w,
-      height: SizerUtil.deviceType == DeviceType.tablet ? 4.h : 3.h,
+      height: SizerUtil.deviceType == DeviceType.tablet ? 5.h : 4.h,
       decoration: BoxDecoration(
         color: kOtherColor,
         borderRadius: BorderRadius.circular(kDefaultPadding),

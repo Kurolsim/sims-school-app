@@ -13,7 +13,7 @@ List<AssignmentData> assignment = [
   AssignmentData(
       'Biology', 'Red Blood Cells', '17 Nov 2021', '20 Nov 2021', 'Pending'),
   AssignmentData(
-      'Physics', 'bohr theory', '11 Nov 2021', '20 Nov 2021', 'Submitted'),
+      'Physics', 'Newton theory', '11 Nov 2021', '20 Nov 2021', 'Submitted'),
   AssignmentData('Chemistry', 'Organic Chemistry', '21 Oct 2021', '27 Oct 2021',
       'Not Submitted'),
   AssignmentData(

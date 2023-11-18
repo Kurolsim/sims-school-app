@@ -1,6 +1,6 @@
-import 'package:brain_school/routes.dart';
-import 'package:brain_school/screens/splash_screen/splash_screen.dart';
-import 'package:brain_school/theme.dart';
+import 'package:sims_school/routes.dart';
+import 'package:sims_school/screens/splash_screen/splash_screen.dart';
+import 'package:sims_school/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return Sizer(builder: (context, orientation, device){
       return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'School Brain',
+        title: 'Sims School App',
         theme: CustomTheme().baseTheme,
         //initial route is splash screen
         //mean first screen

@@ -1,5 +1,5 @@
-import 'package:brain_school/constants.dart';
-import 'package:brain_school/screens/assignment_screen/data/assignment_data.dart';
+import 'package:sims_school/constants.dart';
+import 'package:sims_school/screens/assignment_screen/data/assignment_data.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'widgets/assignment_widgets.dart';

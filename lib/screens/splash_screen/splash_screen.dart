@@ -1,4 +1,4 @@
-import 'package:brain_school/screens/login_screen/login_screen.dart';
+import 'package:sims_school/screens/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -31,18 +31,11 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text('School', style: Theme.of(context).textTheme.headline5),
-                Text('Brain', style: Theme.of(context).textTheme.headline5),
-              ],
-            ),
             Image.asset(
-              'assets/images/splash.png',
+              'assets/images/logo-sims.jpeg',
               //25% of height & 50% of width
-              height: 25.h,
-              width: 50.w,
+              height: 100.h,
+              width: 100.w,
             ),
           ],
         ),

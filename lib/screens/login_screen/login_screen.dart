@@ -1,6 +1,6 @@
-import 'package:brain_school/components/custom_buttons.dart';
-import 'package:brain_school/constants.dart';
-import 'package:brain_school/screens/home_screen/home_screen.dart';
+import 'package:sims_school/components/custom_buttons.dart';
+import 'package:sims_school/constants.dart';
+import 'package:sims_school/screens/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -35,13 +35,13 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             Container(
               width: 100.w,
-              height: 35.h,
+              height: 30.h,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Column(
                     mainAxisAlignment: MainAxisAlignment.end,
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text('Hi Student',
                           style: Theme.of(context).textTheme.subtitle1),
@@ -49,11 +49,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           style: Theme.of(context).textTheme.subtitle2),
                       sizedBox,
                     ],
-                  ),
-                  Image.asset(
-                    'assets/images/splash.png',
-                    height: 20.h,
-                    width: 40.w,
                   ),
                   SizedBox(
                     height: kDefaultPadding / 2,
